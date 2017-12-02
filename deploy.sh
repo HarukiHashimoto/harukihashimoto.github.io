@@ -19,7 +19,7 @@ fi
 git commit -m "$msg"
 
 # Push source.
-git push origin gh-pages
+git push origin master
 
 cd ..
 
@@ -34,6 +34,6 @@ fi
 git commit -m "$msg"
 
 # Push source
-git push origin master
+git push origin gh-pages
 
 echo "Complete rebuild your Project!"
